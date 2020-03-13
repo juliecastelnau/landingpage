@@ -1,0 +1,114 @@
+body {
+	background-color: #F5F5F5;
+	
+	font-family: 'Open Sans', sans-serif;
+	position:static;
+width: 100%;
+overflow-x: hidden;
+}
+
+.header {
+	height:550px;
+	background-image: url("resto.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+.header h1 {
+	color:white;
+    font-weight: 600;
+	font-size:50px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	padding:12px;
+    letter-spacing: 1px;
+}
+.header h2 {
+    color:white;
+    position: absolute;
+	top:50%;
+	left:50%;
+    padding-top: 100px;
+    transform: translateX(-50%) translateY(-50%);
+    font-style: normal;
+    text-align:center;
+	text-transform:none;
+    font-size: 20px;
+	line-height:2.5;
+}
+
+.header button {
+    position: absolute;
+	top:70%;
+	left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align:center;
+	text-transform:none;
+}
+
+.container {
+	width:1000px;
+	margin: 0; 
+	padding-top: 40px;
+	padding-bottom: 40px;
+    text-align: center;
+}
+div#image {
+	padding-right:50px;
+	width:50000px;
+	height:50px;
+}
+
+div#textechef
+{
+	padding-left:35rem;
+	margin-top:0;
+	padding-top:0;
+	
+}
+
+
+.info {
+	padding:1rem;
+	background-color:white;
+    color:black;
+	text-align:center;
+    padding-bottom:0;
+}
+.plat{
+    background-size:100%;
+	 width: 100px;
+    height: 100px;
+}
+
+.plat img {
+    width: 100px;
+    height: 100px;
+}
+.megalist {
+	list-style-type:none;
+}
+
+
+.footer {
+	background-color:black;
+	position:abolute;
+    margin: 0;
+	padding:1em;
+	flex-direction:row;
+	text-align:center;
+	
+}
+
+.footer img {
+	 width: 28px;
+    height: 28px;
+font-weight:0;
+	letter-spacing: 1px;
+	padding-bottom:0;
+	text-align: center;
+		flex-direction:row;
+}
